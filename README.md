@@ -82,7 +82,7 @@ with open("file.xml", "r") as f:
 
 It can be seen that the parser is quite cumbersome and the code to construct a customer is scattered to two different places. Yet it is fast and has a low memory footprint.
 
-## Parse with ElementTree
+## Parser with ElementTree
 
 Here is a parser implemented with ElementTree:
 
