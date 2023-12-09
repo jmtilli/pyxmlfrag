@@ -2,6 +2,15 @@
 
 Typically, XML is either parsed by a tree-based parser or by an event-based parser. Event-based parsers are fast and have a low memory footprint, but a drawback is that it is cumbersome to write the required event handlers. Tree-based parsers make the code easier to write, to understand and to maintain but have a large memory footprint as a drawback. Often, XML is used for huge files such as database dumps that necessitate event-based parsing, or so it would appear at a glance, because a tree-based parser cannot hold the whole parse tree in memory at the same time.
 
+## How to install: PyXMLFrag at PyPI
+
+PyXMLFrag is available at [PyPI](https://test.pypi.org/project/pyxmlfrag/).
+
+How to install:
+```
+python3 -m pip install pyxmlfrag
+```
+
 ## Example application: customers in a major bank
 
 Let us consider an example application: a listing of a customers in a major bank that has 30 million customers. The test file is in the following format:
