@@ -142,13 +142,14 @@ Note how the code is significantly more simple than for the SAX-based approach. 
 ## Alternatives
 
 The standard library of Python has an alternative to pyxmlfrag. The alternative
-[xml.dom.pulldom](https://docs.python.org/3/library/xml.dom.pulldom.html). The
-difference of pyxmlfrag to pulldom is that pyxmlfrag uses ElementTree as its
-object representation whereas pulldom uses DOM as its object representation,
-and that pyxmlfrag uses a callback approach whereas pulldom uses an approach
-where an iterator pulls events. Overall, the choice of whether to use pulldom
-or pyxmlfrag mainly revolves around whether a callback approach is acceptable
-or a pull parser is needed, and whether DOM or ElementTree is preferable.
+is [xml.dom.pulldom](https://docs.python.org/3/library/xml.dom.pulldom.html).
+The difference of pyxmlfrag to pulldom is that pyxmlfrag uses ElementTree as
+its object representation whereas pulldom uses DOM as its object
+representation, and that pyxmlfrag uses a callback approach whereas pulldom
+uses an approach where an iterator pulls events. Overall, the choice of whether
+to use pulldom or pyxmlfrag mainly revolves around whether a callback approach
+is acceptable or a pull parser is needed, and whether DOM or ElementTree is
+preferable.
 
 ## License
 
