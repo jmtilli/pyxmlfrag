@@ -4,7 +4,7 @@ Typically, XML is either parsed by a tree-based parser or by an event-based pars
 
 ## How to install: PyXMLFrag at PyPI
 
-PyXMLFrag is available at [PyPI](https://test.pypi.org/project/pyxmlfrag/).
+PyXMLFrag is available at [PyPI](https://pypi.org/project/pyxmlfrag/).
 
 How to install:
 ```
